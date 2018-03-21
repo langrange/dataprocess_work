@@ -1,0 +1,32 @@
+
+	<folder>UAV_data</folder>
+	<filename>000001.jpg</filename>
+	<source>
+		<database>The UAV autolanding</database>
+		UAV AutoLanding</annotation>
+		<img src="" style="display: none;"><img alt="加载中..." title="图片加载中..." src="http://statics.2cto.com/images/s_nopic.gif">flickr
+		<flickrid>NULL</flickrid>
+	
+	<owner>
+		<flickrid>NULL</flickrid>
+		<name>Zishengzou</name>
+	</owner>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+		<segmented>0</segmented>
+	<object>
+		<name>uav</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>43</xmin>
+			<ymin>81</ymin>
+			<xmax>21</xmax>
+			<ymax>99</ymax>
+		</bndbox>
+	</object>
+</annotation>
