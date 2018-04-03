@@ -37,6 +37,12 @@ for item in txt_basenames:
     temp1, temp2 = os.path.splitext(item)
     txt_names.append(temp1)
 
+def is_chinese(uchar):
+        """判断一个unicode是否是汉字"""
+        if uchar >= u'\u4E00' and uchar <= u'\u9FA5':
+            return True
+        else:
+            return False
 
 def divide2ChineseorEnglish(strpp,dict_chinese,dict_english):
    
